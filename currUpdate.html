@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Currency updater</title>
+<script src="currUpdate.js"></script>
+</head>
+<body>
+<style>
+    #resultbox
+{
+    height:400px;
+    width:400px;
+    word-wrap: break-word;
+    resize:none;
+}
+</style>
+<h3>Currency updater</h3>
+Method: <input type="radio" name="radioMethod" value="POST" onclick="checkRadio()" checked>POST<input type="radio" name="radioMethod" value="PUT" onclick="checkRadio()">PUT<input type="radio" name="radioMethod" value="DELETE" onclick="checkRadio()">DELETE
+<br>
+<br>
+<form id="currUpdate">
+    Currency code: <input type="text" name="currCode">
+    <br>
+    <br>
+    Rate: <input type="text" id="currRateText" name="currRate">
+    <br>
+    <br>
+    Format: <input type="radio" name="format" value="xml" checked>XML<input type="radio" name="format" value="json">JSON
+    <br>
+    <br>
+    <input type="button" value="Submit" onclick="checkMethod()">
+    <br>
+    <br>
+</form>
+Result: 
+<br>
+<textarea rows="4" cols="150" id="resultbox" readonly ></textarea> 
+</body>
+</html>

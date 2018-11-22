@@ -1,0 +1,27 @@
+surname: Ong
+number: 17035315
+username: c7-ong
+
+app_home:        http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/
+update_form:     http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/currUpdate.html
+
+# source code files
+
+main_file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/index.phps
+get_file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/currGet.phps
+post_file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/currPost.phps
+put_file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/currPut.phps
+delete_file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/currDelete.phps
+rates updating file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/script.phps
+error handling file: http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/docs/errorHandling.phps
+
+# data files
+
+rates_xml : http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/data/currDataXml.xml
+config_xml : http://isa.cems.uwe.ac.uk/~c7-ong/atwd1/assignment/data/config.xml
+
+reflection: For this task, I was tasked to build a RESTful currency converter web application. The functions for the application are converting an amount from a currency into another one, update the rates of a currency, insert a new currency and deleting a currency. To ensure that the application works correctly, error handling has to be implemented and error messages need to be shown to the user. Finally, the results has to be outputted in either XML or JSON format to the user. At first, I was afraid that making an API alone would be hard but turns out it is not that hard as I expected. For learning outcomes, I have learned how to create a REST API, improved my knowledge in the programming languages used in this assignment and have a better grasp of PHP, Javascript and Ajax in general.
+
+The difference between REST and SOAP is that REST allows a bigger variety of data formats, whereas SOAP only allows XML to be used. Other than that, the usage of JSON in REST has been a favourite for developers as it is much more easier to work with and browser clients support it. REST also provides superior performance and is often used in major web services such as Yahoo, Amazon, Ebay and more. Finally, REST is generally faster and is easier to integrate with current existing websites.
+
+I think the application could be improved by making it into a widget so it becomes more lightweight. Additionally, the outputs could be printed out using an XSLT stylesheet when it is outputted using XML. Finally, a NOSQL database would be beneficial when many users are trying to access to website to perform their desired tasks.

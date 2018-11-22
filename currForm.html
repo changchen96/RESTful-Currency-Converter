@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Currency converter</title>
+</head>
+<body>
+<style>
+    #resultbox
+{
+    height:400px;
+    width:400px;
+    word-wrap: break-word;
+    resize:none;
+}
+</style>
+<script src="currForm.js"></script>
+<h3>Currency converter</h3>
+Method: <input type="radio" name="method" value="GET" checked>GET
+<br>
+<br>
+<form id="currForm">
+    Currency from: <input type="text" name="from">
+    <br>
+    <br>
+    Currency to: <input type="text" name="to">
+    <br>
+    <br>
+    Amount: <input type="text" name="amnt">
+    <br>
+    <br>
+    Format: <input type="radio" name="format" value="xml" checked>XML<input type="radio" name="format" value="json">JSON
+    <br>
+    <br>
+    <input type="button" value="Submit" onclick="checkMethod()">
+    <br>
+    <br>
+</form>
+Result:
+<br> 
+<textarea rows="4" cols="150" id="resultbox" readonly ></textarea> 
+</body>
+</html>

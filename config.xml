@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<apiConfig>
+<apiLink>https://openexchangerates.org/api/latest.json?app_id=</apiLink>
+<apiKey>c530db31c5624d7d8a201b601f477d1c</apiKey>
+</apiConfig>
+<errorDesc>
+<error>
+<errorCode>1000</errorCode>
+<errorMessage>Required parameter is missing</errorMessage>
+</error>
+<error>
+<errorCode>1100</errorCode>
+<errorMessage>Parameter not recognized</errorMessage>
+</error>
+<error>
+<errorCode>1200</errorCode>
+<errorMessage>Currency type not recognized</errorMessage>
+</error>
+<error>
+<errorCode>1300</errorCode>
+<errorMessage>Currency amount must be a decimal number</errorMessage>
+</error>
+<error>
+<errorCode>1400</errorCode>
+<errorMessage>Format must be in xml or json</errorMessage>
+</error>
+<error>
+<errorCode>1500</errorCode>
+<errorMessage>Error in service</errorMessage>
+</error>
+<error>
+<errorCode>2000</errorCode>
+<errorMessage>Method not recognized or missing</errorMessage>
+</error>
+<error>
+<errorCode>2100</errorCode>
+<errorMessage>Rate in wrong format or missing</errorMessage>
+</error>
+<error>
+<errorCode>2200</errorCode>
+<errorMessage>Currency code in wrong format or is missing</errorMessage>
+</error>
+<error>
+<errorCode>2300</errorCode>
+<errorMessage>Country name in wrong format or is missing</errorMessage>
+</error>
+<error>
+<errorCode>2400</errorCode>
+<errorMessage>Currency code not found for update</errorMessage>
+</error>
+<error>
+<errorCode>2500</errorCode>
+<errorMessage>Error in service</errorMessage>
+</error>
+</errorDesc>
+</config>
+
+
